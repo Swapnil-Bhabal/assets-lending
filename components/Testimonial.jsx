@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Testimonial = () => {
   return (
@@ -19,14 +20,16 @@ const Testimonial = () => {
         <div className="flex flex-wrap -m-4 mt-5">
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
-              <img
+              <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="https://dummyimage.com/302x302"
+                width={302}
+                height={302}
               />
               <p className="leading-relaxed">
                 Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
+                taiyaki taxidermy 90&apos;s cronut +1 kinfolk. Single-origin coffee
                 ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
                 adaptogen squid fanny pack vaporware.
               </p>
@@ -39,14 +42,16 @@ const Testimonial = () => {
           </div>
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
-              <img
+              <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="https://dummyimage.com/300x300"
+                width={300}
+                height={300}
               />
               <p className="leading-relaxed">
                 Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
+                taiyaki taxidermy 90&apos;s cronut +1 kinfolk. Single-origin coffee
                 ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
                 adaptogen squid fanny pack vaporware.
               </p>
@@ -54,19 +59,21 @@ const Testimonial = () => {
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
                 ALPER KAMU
               </h2>
-              <p className="text-gray-500">UI Develeoper</p>
+              <p className="text-gray-500">UI Developer</p>
             </div>
           </div>
           <div className="lg:w-1/3 lg:mb-0 p-4">
             <div className="h-full text-center">
-              <img
+              <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="https://dummyimage.com/305x305"
+                width={305}
+                height={305}
               />
               <p className="leading-relaxed">
                 Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
+                taiyaki taxidermy 90&apos;s cronut +1 kinfolk. Single-origin coffee
                 ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
                 adaptogen squid fanny pack vaporware.
               </p>
