@@ -86,7 +86,7 @@ const Hero = ({ source = null }) => {
                 <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src={"/hero-3.jpg"}
+                  src={"./hero-3.jpg"}
                   width={1202}
                   height={502}
                 />
@@ -112,7 +112,7 @@ const Hero = ({ source = null }) => {
             <Image
               alt="feature"
               className="object-cover w-full h-650px lg:w-[500px] h-[650px]  rounded-lg"
-              src={"/nature-vertical.jpg"}
+              src={"./nature-vertical.jpg"}
               width={100}
               height={100}
             />

@@ -23,7 +23,7 @@ const Testimonial = () => {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src={"/pf-pic-1.jpg"}
+                src={"./pf-pic-1.jpg"}
                 width={302}
                 height={302}
               />
@@ -45,7 +45,7 @@ const Testimonial = () => {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src={"/pf-pic-3.jpg"}
+                src={"./pf-pic-3.jpg"}
                 width={300}
                 height={300}
               />
@@ -67,7 +67,7 @@ const Testimonial = () => {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src={"/pf-pic-2.jpg"}
+                src={"./pf-pic-2.jpg"}
                 width={305}
                 height={305}
               />
