@@ -31,11 +31,11 @@ const Hero = ({ source = null }) => {
         className={`text-gray-600 body-font ${
           source === "how it works"
             ? "bg-gradient-to-br from-indigo-100 via-blue-100 to-gray-100"
-            : "bg-gradient-to-br from-indigo-200 via-blue-200 to-gray-200"
+            : "bg-gradient-to-br from-black via-indigo-500 to-black"
         }`}
       >
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white text-center">
             Master Cleanse Reliac Heirloom
           </h1>
           <div className="flex flex-wrap -mx-4 -mb-10 mt-5 text-center justify-center">
@@ -44,15 +44,15 @@ const Hero = ({ source = null }) => {
                 <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src="https://dummyimage.com/1201x501"
+                  src={"/hero-1.jpg"}
                   width={1201}
                   height={501}
                 />
               </div>
-              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
+              <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
                 Buy YouTube Videos
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-gray-200">
                 Williamsburg occupy sustainable snackwave gochujang. Pinterest
                 cornhole brunch, slow-carb neutra irony.
               </p>
@@ -65,15 +65,15 @@ const Hero = ({ source = null }) => {
                 <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src="https://dummyimage.com/1202x502"
+                  src={"/hero-2.jpg"}
                   width={1202}
                   height={502}
                 />
               </div>
-              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
+              <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
                 The Catalyzer
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-gray-200">
                 Williamsburg occupy sustainable snackwave gochujang. Pinterest
                 cornhole brunch, slow-carb neutra irony.
               </p>
@@ -86,15 +86,15 @@ const Hero = ({ source = null }) => {
                 <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src="https://dummyimage.com/1202x502"
+                  src={"/hero-3.jpg"}
                   width={1202}
                   height={502}
                 />
               </div>
-              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">
+              <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
                 The Catalyzer
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-gray-200">
                 Williamsburg occupy sustainable snackwave gochujang. Pinterest
                 cornhole brunch, slow-carb neutra irony.
               </p>
@@ -107,14 +107,14 @@ const Hero = ({ source = null }) => {
       </section>
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto flex flex-wrap">
-          <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+        <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col justify-center items-center md:flex-row md:items-center">
+          <div className="lg:w-1/2 w-full mb-10 lg:mb-0">
             <Image
               alt="feature"
-              className="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/460x500"
-              width={460}
-              height={500}
+              className="object-cover w-full h-650px lg:w-[500px] h-[650px]  rounded-lg"
+              src={"/nature-vertical.jpg"}
+              width={100}
+              height={100}
             />
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
