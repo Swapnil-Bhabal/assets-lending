@@ -23,7 +23,7 @@ const Testimonial = () => {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src={"./pf-pic-1.jpg"}
+                src={"https://ik.imagekit.io/swapnilbhabal/pf-pic-1.jpg?updatedAt=1712322503768"}
                 width={302}
                 height={302}
               />
@@ -45,7 +45,7 @@ const Testimonial = () => {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src={"./pf-pic-3.jpg"}
+                src={"https://ik.imagekit.io/swapnilbhabal/pf-pic-3.jpg?updatedAt=1712322504343"}
                 width={300}
                 height={300}
               />
@@ -67,7 +67,7 @@ const Testimonial = () => {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src={"./pf-pic-2.jpg"}
+                src={"https://ik.imagekit.io/swapnilbhabal/pf-pic-2.jpg?updatedAt=1712322522052"}
                 width={305}
                 height={305}
               />

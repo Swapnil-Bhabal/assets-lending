@@ -44,7 +44,7 @@ const Hero = ({ source = null }) => {
                 <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src={"./hero-1.jpg"}
+                  src={"https://ik.imagekit.io/swapnilbhabal/hero-1.jpg?updatedAt=1712322522798"}
                   width={1201}
                   height={501}
                 />
@@ -65,7 +65,7 @@ const Hero = ({ source = null }) => {
                 <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src={"./hero-2.jpg"}
+                  src={"https://ik.imagekit.io/swapnilbhabal/hero-2.jpg?updatedAt=1712322504046"}
                   width={1202}
                   height={502}
                 />
@@ -86,7 +86,7 @@ const Hero = ({ source = null }) => {
                 <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
-                  src={"./hero-3.jpg"}
+                  src={"https://ik.imagekit.io/swapnilbhabal/hero-3.jpg?updatedAt=1712322512073"}
                   width={1202}
                   height={502}
                 />
@@ -112,7 +112,7 @@ const Hero = ({ source = null }) => {
             <Image
               alt="feature"
               className="object-cover w-full h-650px lg:w-[500px] h-[650px]  rounded-lg"
-              src={"./nature-vertical.jpg"}
+              src={"https://ik.imagekit.io/swapnilbhabal/nature-vertical.jpg?updatedAt=1712322522082"}
               width={100}
               height={100}
             />
